@@ -5,6 +5,7 @@
     <packaging>bundle</packaging>
     <name>VCH Playlist OSD Interface</name>
     <version>1.0.4-SNAPSHOT</version>
+    <description>Manage playlists in the osd interface.</description>
 
     <parent>
         <artifactId>parent</artifactId>
@@ -13,7 +14,12 @@
         <relativePath>../vch-parent/pom.xml</relativePath>
     </parent>
 
-    <description>Manage playlists in the osd interface.</description>
+    <scm>
+        <connection>scm:git:git@github.com/hampelratte/vch-playlist-osd.git</connection>
+        <developerConnection>scm:git:git@github.com:hampelratte/vch-playlist-osd.git</developerConnection>
+        <url>https://github.com/hampelratte/vch-playlist-osd.git</url>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>de.berlios.vch</groupId>
